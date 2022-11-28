@@ -1,0 +1,49 @@
+﻿<div class="text-left">
+    <div>
+        <h1>Dados dos Professores</h1>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Contato</th>
+                <th scope="col">E-mail</th>
+                <th scope="col">CEP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Fulano</td>
+                <td>30</td>
+                <td>(47)99999-9997</td>
+                <td>fulano@professor.sc.senac.br</td>
+                <td>88000-004</td>
+                <td><button type="button" class="btn btn-primary">Endereço</button></td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Beltrano</td>
+                <td>41</td>
+                <td>(47)99999-9996</td>
+                <td>beltrano@professor.sc.senac.br</td>
+                <td>88000-005</td>
+                <td><button type="button" class="btn btn-primary">Endereço</button></td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Ciclano</td>
+                <td>56</td>
+                <td>(47)99999-9995</td>
+                <td>ciclano@professor.sc.senac.br</td>
+                <td>88000-006</td>
+                <td><button type="button" class="btn btn-primary">Endereço</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <center><button type="button" asp-controller="Alunos" asp-action="Adicionar" class="btn btn-primary">Adicionar Novo Professor</button></center>
+</div>
+
